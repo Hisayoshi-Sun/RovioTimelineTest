@@ -2020,7 +2020,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: -0.03388157, y: 0.5046871, z: 0.033717006, w: 0.04989582}
+  m_LocalRotation: {x: -0.03596126, y: 0.5356652, z: 0.03578659, w: 0.9020573}
   m_LocalPosition: {x: -74, y: 0.5329542, z: 68.981255}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -9834,8 +9834,9 @@ GameObject:
   - component: {fileID: 1805484061}
   - component: {fileID: 1805484063}
   - component: {fileID: 1805484062}
+  - component: {fileID: 1805484064}
   m_Layer: 0
-  m_Name: Cube.007
+  m_Name: Controol1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9848,8 +9849,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1805484060}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0019152808, y: -0.0050084214, z: 0.008100397}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.001915281, y: -0.005008421, z: 0.008100397}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 695123808}
@@ -9904,6 +9905,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1805484060}
   m_Mesh: {fileID: -3329902420748629119, guid: 8a63df9d965a79a48930d5bd137a1964, type: 3}
+--- !u!95 &1805484064
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805484060}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1825438443
 GameObject:
   m_ObjectHideFlags: 0
@@ -10670,6 +10692,8 @@ PlayableDirector:
     value: {fileID: 73444437}
   - key: {fileID: 1388548264780890398, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
     value: {fileID: 394488611}
+  - key: {fileID: 3860597460955684485, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
+    value: {fileID: 1805484064}
   m_ExposedReferences:
     m_References:
     - 51f1a1870a8f78d4489e8827ab601f3f: {fileID: 1606187449}
