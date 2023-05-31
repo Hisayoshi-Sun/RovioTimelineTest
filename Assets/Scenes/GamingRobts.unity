@@ -2013,9 +2013,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.58
+  near clip plane: 0.5
   far clip plane: 1000
-  field of view: 35
+  field of view: 40.7
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -2040,8 +2040,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: -0.06556182, y: 0.9765841, z: 0.06524341, w: -0.19423442}
-  m_LocalPosition: {x: -74, y: 0.5329542, z: 68.981255}
+  m_LocalRotation: {x: 0, y: -0.99989223, z: 0, w: -0.014414651}
+  m_LocalPosition: {x: -66.617, y: 1.22, z: 63.835}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9185,7 +9185,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 35
+    FieldOfView: 60
     OrthographicSize: 5
     NearClipPlane: 0.58
     FarClipPlane: 1000
@@ -11095,8 +11095,6 @@ PlayableDirector:
     value: {fileID: 330585548}
   - key: {fileID: 8327078169234881811, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
     value: {fileID: 1284752672}
-  - key: {fileID: -430246493674249306, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
-    value: {fileID: 1194505800}
   - key: {fileID: -9000754673537634364, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
     value: {fileID: 790378601}
   - key: {fileID: 1388548264780890398, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
@@ -11111,6 +11109,14 @@ PlayableDirector:
     value: {fileID: 625982894}
   - key: {fileID: 384665667483183488, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
     value: {fileID: 1819455847}
+  - key: {fileID: -1869285743927147856, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
+    value: {fileID: 8485173160947794299}
+  - key: {fileID: -1999081347465221726, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
+    value: {fileID: 8009987136852628937}
+  - key: {fileID: -4185871457243013903, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
+    value: {fileID: 8184478954363543639}
+  - key: {fileID: 2847698371057007708, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
+    value: {fileID: 1636362000675942886}
   m_ExposedReferences:
     m_References:
     - 3bff70308efc69949bd289951743162e: {fileID: 0}
@@ -13595,6 +13601,7 @@ GameObject:
   - component: {fileID: 6029283900774843117}
   - component: {fileID: 5784511219343147181}
   - component: {fileID: 9164644175063467469}
+  - component: {fileID: 1636362000675942886}
   m_Layer: 0
   m_Name: PinBar_L
   m_TagString: Untagged
@@ -13602,6 +13609,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &1636362000675942886
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636362000675942885}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &1640063503776281832
 Transform:
   m_ObjectHideFlags: 0
@@ -19761,6 +19789,7 @@ GameObject:
   - component: {fileID: 6830945431482139333}
   - component: {fileID: 7606442908459234280}
   - component: {fileID: 4321514658320143239}
+  - component: {fileID: 8009987136852628937}
   m_Layer: 0
   m_Name: Button_L
   m_TagString: Untagged
@@ -19768,6 +19797,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &8009987136852628937
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8009987136852628936}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &8066583416938678038
 Transform:
   m_ObjectHideFlags: 0
@@ -19870,6 +19920,7 @@ GameObject:
   - component: {fileID: 8186734139485036689}
   - component: {fileID: 3363540323217680608}
   - component: {fileID: 3336850585299726573}
+  - component: {fileID: 8184478954363543639}
   m_Layer: 0
   m_Name: PinBar_R
   m_TagString: Untagged
@@ -19877,6 +19928,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &8184478954363543639
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8184478954363543638}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &8186734139485036689
 Transform:
   m_ObjectHideFlags: 0
@@ -20286,6 +20358,7 @@ GameObject:
   - component: {fileID: 1187514421231264066}
   - component: {fileID: 3404236369030038616}
   - component: {fileID: 6027543246707423990}
+  - component: {fileID: 8485173160947794299}
   m_Layer: 0
   m_Name: Button_R
   m_TagString: Untagged
@@ -20293,6 +20366,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &8485173160947794299
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8485173160947794298}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &8514629664089265591
 Transform:
   m_ObjectHideFlags: 0
