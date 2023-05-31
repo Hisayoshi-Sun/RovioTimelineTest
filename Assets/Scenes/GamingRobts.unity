@@ -1087,8 +1087,9 @@ GameObject:
   - component: {fileID: 250612743}
   - component: {fileID: 250612745}
   - component: {fileID: 250612744}
+  - component: {fileID: 250612746}
   m_Layer: 0
-  m_Name: Cube.009
+  m_Name: Arm2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1157,6 +1158,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 250612742}
   m_Mesh: {fileID: -2477511411847689622, guid: 8a63df9d965a79a48930d5bd137a1964, type: 3}
+--- !u!95 &250612746
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250612742}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &266426054
 GameObject:
   m_ObjectHideFlags: 0
@@ -2020,7 +2042,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: -0.06683456, y: 0.99554217, z: 0.06650996, w: 0.002200537}
+  m_LocalRotation: {x: -0.06675145, y: 0.99430424, z: 0.06642724, w: 0.002200537}
   m_LocalPosition: {x: -74, y: 0.5329542, z: 68.981255}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -2433,8 +2455,9 @@ GameObject:
   - component: {fileID: 504162652}
   - component: {fileID: 504162654}
   - component: {fileID: 504162653}
+  - component: {fileID: 504162655}
   m_Layer: 0
-  m_Name: Cube.010
+  m_Name: Arm3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2503,6 +2526,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504162651}
   m_Mesh: {fileID: 8385836491182413749, guid: 8a63df9d965a79a48930d5bd137a1964, type: 3}
+--- !u!95 &504162655
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504162651}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &508273625
 GameObject:
   m_ObjectHideFlags: 0
@@ -9836,7 +9880,7 @@ GameObject:
   - component: {fileID: 1805484062}
   - component: {fileID: 1805484064}
   m_Layer: 0
-  m_Name: Controol1
+  m_Name: Arm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10694,6 +10738,10 @@ PlayableDirector:
     value: {fileID: 394488611}
   - key: {fileID: 3860597460955684485, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
     value: {fileID: 1805484064}
+  - key: {fileID: 8716181948961721600, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
+    value: {fileID: 250612746}
+  - key: {fileID: 8914419908428507004, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
+    value: {fileID: 504162655}
   m_ExposedReferences:
     m_References:
     - 51f1a1870a8f78d4489e8827ab601f3f: {fileID: 1606187449}
@@ -13268,7 +13316,7 @@ GameObject:
   - component: {fileID: 5784511219343147181}
   - component: {fileID: 9164644175063467469}
   m_Layer: 0
-  m_Name: Cube.020
+  m_Name: PinBar_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19543,7 +19591,7 @@ GameObject:
   - component: {fileID: 3363540323217680608}
   - component: {fileID: 3336850585299726573}
   m_Layer: 0
-  m_Name: Cube.022
+  m_Name: PinBar_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
