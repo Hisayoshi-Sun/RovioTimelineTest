@@ -2013,9 +2013,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.5
+  near clip plane: 0.58
   far clip plane: 1000
-  field of view: 40.7
+  field of view: 60
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -2040,8 +2040,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: 0, y: -0.8348324, z: 0, w: 0.56081206}
-  m_LocalPosition: {x: -66.617, y: 1.22, z: 63.835}
+  m_LocalRotation: {x: -0.045811795, y: 0.68239504, z: 0.045589276, w: 0.9688596}
+  m_LocalPosition: {x: -74, y: 0.5329542, z: 68.981255}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10765,7 +10765,7 @@ GameObject:
   - component: {fileID: 1921183394}
   - component: {fileID: 1921183397}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Pinball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11236,6 +11236,8 @@ PlayableDirector:
     value: {fileID: 1636362000675942886}
   - key: {fileID: 704337039923528806, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
     value: {fileID: 1921183397}
+  - key: {fileID: -8491227335941202199, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
+    value: {fileID: 3045054249355895472}
   m_ExposedReferences:
     m_References:
     - 3bff70308efc69949bd289951743162e: {fileID: 0}
@@ -15173,13 +15175,35 @@ GameObject:
   - component: {fileID: 6699260662127520348}
   - component: {fileID: 504353366953791093}
   - component: {fileID: 5538488138439517322}
+  - component: {fileID: 3045054249355895472}
   m_Layer: 0
   m_Name: Pinball light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
+--- !u!95 &3045054249355895472
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3045054249355895471}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &3073195336414663961
 Transform:
   m_ObjectHideFlags: 0
@@ -17557,7 +17581,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 1b15ab8c7fa02bf4688b4c52ed564853, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18647,13 +18671,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3045054249355895471}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
   m_LocalPosition: {x: 0.23308, y: 0, z: 0.14}
   m_LocalScale: {x: 122, y: 122, z: 122}
   m_Children: []
   m_Father: {fileID: 1155808933724525468}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 359.9802, y: 0, z: 0}
 --- !u!4 &6705007163878862460
 Transform:
   m_ObjectHideFlags: 0
