@@ -229,7 +229,7 @@ GameObject:
   - component: {fileID: 8200823}
   - component: {fileID: 8200822}
   m_Layer: 0
-  m_Name: CM vcam3
+  m_Name: 3rdShot_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -283,7 +283,7 @@ Transform:
   m_Children:
   - {fileID: 700331047}
   m_Father: {fileID: 1555262003}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 174.28, z: -0.003}
 --- !u!1 &9314031
 GameObject:
@@ -602,7 +602,7 @@ GameObject:
   - component: {fileID: 48920748}
   - component: {fileID: 48920747}
   m_Layer: 0
-  m_Name: DollyTrack2
+  m_Name: 5thShotTrack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -649,7 +649,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1555262003}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &55439771
 GameObject:
@@ -2368,9 +2368,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.58
+  near clip plane: 0.5
   far clip plane: 1000
-  field of view: 60
+  field of view: 40.7
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -2395,8 +2395,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: -0.04750526, y: 0.7076203, z: 0.047274522, w: -0.19423442}
-  m_LocalPosition: {x: -74, y: 0.5329542, z: 68.981255}
+  m_LocalRotation: {x: -0, y: -0.99989206, z: -0, w: -0.014414651}
+  m_LocalPosition: {x: -66.617, y: 1.22, z: 63.835}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1555262003}
@@ -2584,7 +2584,7 @@ GameObject:
   - component: {fileID: 394488609}
   - component: {fileID: 394488611}
   m_Layer: 0
-  m_Name: CM vcam6
+  m_Name: 6thShot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2638,7 +2638,7 @@ Transform:
   m_Children:
   - {fileID: 1180889571}
   m_Father: {fileID: 1555262003}
-  m_RootOrder: 5
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0.000009461741, y: -0.00001547102, z: -0.0000003012391}
 --- !u!95 &394488611
 Animator:
@@ -4241,7 +4241,7 @@ GameObject:
   - component: {fileID: 625982892}
   - component: {fileID: 625982894}
   m_Layer: 0
-  m_Name: CM vcam8
+  m_Name: 1stShot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4295,7 +4295,7 @@ Transform:
   m_Children:
   - {fileID: 884415536}
   m_Father: {fileID: 1555262003}
-  m_RootOrder: 8
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0.0000005269565, y: 0.000004802117, z: -0.0000006794028}
 --- !u!95 &625982894
 Animator:
@@ -6105,7 +6105,7 @@ GameObject:
   - component: {fileID: 790378602}
   - component: {fileID: 790378601}
   m_Layer: 0
-  m_Name: CM vcam7
+  m_Name: 5thShot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6180,7 +6180,7 @@ Transform:
   m_Children:
   - {fileID: 1986367780}
   m_Father: {fileID: 1555262003}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: -0.0000008473568, y: -0.000000002005208, z: -0.000000008282058}
 --- !u!1 &796493772
 GameObject:
@@ -9430,7 +9430,7 @@ GameObject:
   - component: {fileID: 1284752670}
   - component: {fileID: 1284752672}
   m_Layer: 0
-  m_Name: CM vcam2
+  m_Name: 2ndShot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9484,7 +9484,7 @@ Transform:
   m_Children:
   - {fileID: 1234749816}
   m_Father: {fileID: 1555262003}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -0.00000001043739, y: -0.0000008517198, z: 0.000000005857032}
 --- !u!95 &1284752672
 Animator:
@@ -11400,15 +11400,15 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 330585546}
+  - {fileID: 625982893}
   - {fileID: 1284752671}
   - {fileID: 1999026567}
+  - {fileID: 1819455846}
   - {fileID: 8200823}
   - {fileID: 1606187450}
-  - {fileID: 394488610}
   - {fileID: 790378603}
   - {fileID: 48920748}
-  - {fileID: 625982893}
-  - {fileID: 1819455846}
+  - {fileID: 394488610}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11613,7 +11613,7 @@ GameObject:
   - component: {fileID: 1606187450}
   - component: {fileID: 1606187449}
   m_Layer: 0
-  m_Name: CM vcam4
+  m_Name: 4thShot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11667,7 +11667,7 @@ Transform:
   m_Children:
   - {fileID: 279203719}
   m_Father: {fileID: 1555262003}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: -7.647, y: 89.761, z: -0.003}
 --- !u!1 &1610780389
 GameObject:
@@ -12976,7 +12976,7 @@ GameObject:
   - component: {fileID: 1819455845}
   - component: {fileID: 1819455847}
   m_Layer: 0
-  m_Name: CM vcam9
+  m_Name: 3rdShot_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13030,7 +13030,7 @@ Transform:
   m_Children:
   - {fileID: 55439772}
   m_Father: {fileID: 1555262003}
-  m_RootOrder: 9
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0.0000003483696, z: 0}
 --- !u!95 &1819455847
 Animator:
@@ -14143,6 +14143,10 @@ PlayableDirector:
     value: {fileID: 77762248}
   - key: {fileID: 6856398958846100521, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
     value: {fileID: 363036262}
+  - key: {fileID: -1455823603471030489, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
+    value: {fileID: 897751349}
+  - key: {fileID: 6786773080413946764, guid: c81f53e80e9417144b1bc1906195e90d, type: 2}
+    value: {fileID: 77762244}
   m_ExposedReferences:
     m_References:
     - 3bff70308efc69949bd289951743162e: {fileID: 0}
@@ -14255,7 +14259,7 @@ GameObject:
   - component: {fileID: 1999026567}
   - component: {fileID: 1999026566}
   m_Layer: 0
-  m_Name: DollyTrack1
+  m_Name: 2ndShotTrack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14306,7 +14310,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1555262003}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &2019613793
 GameObject:
