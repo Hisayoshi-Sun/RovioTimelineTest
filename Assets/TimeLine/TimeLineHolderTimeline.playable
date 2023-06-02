@@ -4730,7 +4730,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Robot_Run_1stShot
+    m_DisplayName: Robot_Run_3rdShot_1
   - m_Version: 1
     m_Start: 9.533333333333333
     m_ClipIn: 0.09999999999999964
@@ -4799,7 +4799,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Robot_Idle 2ndShot
+    m_DisplayName: Robot_Idle 3rdShot_2
   - m_Version: 1
     m_Start: 8.833333333333334
     m_ClipIn: 0.10000000000000142
@@ -4868,7 +4868,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Robot_Walk 2ndShot
+    m_DisplayName: Robot_Walk 3rdShot_2_1
   - m_Version: 1
     m_Start: 11.7
     m_ClipIn: 0
@@ -4937,7 +4937,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Robot_Idle 2ndShot 1
+    m_DisplayName: Robot_Idle 3rdShot_3
   - m_Version: 1
     m_Start: 26
     m_ClipIn: 0
@@ -5006,7 +5006,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Robot_Idle 4thShot
+    m_DisplayName: Robot_Idle 5thShot_1
   - m_Version: 1
     m_Start: 30.666666666666668
     m_ClipIn: 0
@@ -5075,7 +5075,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Robot_Angry 7thShot
+    m_DisplayName: Robot_Angry 5thShot_4
   - m_Version: 1
     m_Start: 32.333333333333336
     m_ClipIn: 0
@@ -5144,7 +5144,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Robot_Interaction 7thShot
+    m_DisplayName: Robot_Interaction 5thShot_5
   - m_Version: 1
     m_Start: 34.533333333333275
     m_ClipIn: 0
@@ -5213,7 +5213,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Robot_Idle 9thShot
+    m_DisplayName: Robot_Idle 5thShot_6
   - m_Version: 1
     m_Start: 40.03333333333333
     m_ClipIn: 0
@@ -5264,7 +5264,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
     m_PreExtrapolationTime: 0
-    m_DisplayName: Robot_Celebration 10thShot
+    m_DisplayName: Robot_Celebration 6thShot
   - m_Version: 1
     m_Start: 27.3
     m_ClipIn: 0
@@ -5333,7 +5333,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Robot_Interaction 5thShot
+    m_DisplayName: Robot_Interaction 5thShot_2
   - m_Version: 1
     m_Start: 20
     m_ClipIn: 0.9666671752929688
@@ -5402,7 +5402,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Robot_Walk
+    m_DisplayName: Robot_Walk_3rd4thShot
   - m_Version: 1
     m_Start: 29.2
     m_ClipIn: 0
@@ -5471,7 +5471,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Robot_Idle 5thShot
+    m_DisplayName: Robot_Idle 5thShot_3
   m_Markers:
     m_Objects: []
   m_InfiniteClipPreExtrapolation: 0
